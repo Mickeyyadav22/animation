@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+@keyframes name{
+    0%{
+        background-color: burlywood;
+        transform: translateX(800px);
+    }
+    25%{
+        background-color: aqua;
+        transform: translatey(500px);
+    }
+    50%{
+        background-color: chocolate;
+        transform: translateX(800px);
+
+    }
+    100%{
+        background-color: chartreuse;
+        
+    }
+
+}
+.ball{
+    background-color: rgb(195, 16, 63);
+    animation: name 5s infinite alternate ease-in-out ;
+    /* margin: 10%; */
+    padding: 5%;
+    width: 30%;
+}
+.ball{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color: solid blue;
+    text-align: center;
+    padding-top: 10%;
+    background-color: chocolate;
+
+}
+    </style>
+</head>
+
+<body>
+    <!-- <div class="img">
+        <img src="cyberpunk.jpg" width="400px" height="300px">
+    </div> -->
+    <div class="ball">
+    <h1>ball</h1>
+    </div>
+
+</body>
+
+</html>
